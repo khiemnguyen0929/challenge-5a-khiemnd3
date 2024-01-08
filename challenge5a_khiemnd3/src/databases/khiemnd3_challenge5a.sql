@@ -102,17 +102,6 @@ CREATE TABLE `submit_exercise` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Đang đổ dữ liệu cho bảng `submit_exercise`
---
-
-INSERT INTO `submit_exercise` (`id`, `exerciseId`, `url`, `created`) VALUES
-(4, 10, '/uploads/submit_works/271382984_320127416673769_2336783466851981571_n_t7nc6q.jpg', '2024-01-08 10:52:12');
-
---
--- Chỉ mục cho các bảng đã đổ
---
-
---
 -- Chỉ mục cho bảng `account`
 --
 ALTER TABLE `account`
